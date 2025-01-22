@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf5f5;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px; /* Make space for fixed navigation */
+}
+
+/* Header styling */
+header {
+    background-color: #f4d9ee;
+    color: rgb(11, 8, 8);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Profile photo styling */
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid rgb(13, 6, 6);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Contact info styles */
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: rgb(135, 94, 94);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation styles */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0d0404;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(209, 201, 201);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f4d9ee(214, 64, 64);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #080505;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f4d9ee;
+    color: rgb(2, 1, 1);
+}
+
+footer p {
+    font-size: 1em;
+}
